@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Gadgets-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Gadgets{
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.Gadgets img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+h4{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+a{
+    display: block;
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button :hover{
+    background-color: #0056b3;
+}
